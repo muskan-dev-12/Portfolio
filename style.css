@@ -76,3 +76,51 @@ footer{padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);t
 
 
 button.btn{font:inherit;font-weight:700;background:none;cursor:pointer}
+/* Base Styles (Default for Desktop & Large Screens) */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 400px;
+}
+
+/* =================================================== */
+/* Mobile Devices (iPhone, Android - Screen <= 768px)  */
+/* =================================================== */
+/* Mobile screen par header aur navigation ko compact karne ke liye */
+@media screen and (max-width: 768px) {
+    /* Agar header flex ya column me hai toh usko row karein ya padding kam karein */
+    header, .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+        flex-direction: row; /* Column se hata kar row me layein */
+        width: 100%;
+    }
+
+    /* Navigation links list ko ek line me ya chhota karne ke liye */
+    nav ul, .nav-links {
+        display: flex;
+        flex-direction: row; /* Links ko vertical ki jagah horizontal karein */
+        gap: 10px;          /* Links ke beech ka gap kam karein */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navigation text ka size chhota karein taaki wo fit aaye */
+    nav ul li a, .nav-links a {
+        font-size: 12px;
+    }
+}
