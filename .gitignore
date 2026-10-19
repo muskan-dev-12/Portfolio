@@ -1,0 +1,7 @@
+.env
+node_modules/
+private/*
+!private/.gitkeep
+.env
+private/
+node_modules/

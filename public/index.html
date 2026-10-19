@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Muskan — aspiring DevOps Engineer. Linux, Docker, Jenkins, CI/CD, AWS and 100 Days of DevOps.">
+  <title>Muskan.dev — DevOps Engineer in Progress</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Muskan home"><span class="brand-mark">M</span><span><b>muskan.dev</b><small>commit on cloud</small></span></a>
+      <div class="nav-links">
+        <a href="#about">about</a><a href="#stack">stack</a><a href="#journey">journey</a><a href="#projects">projects</a><a href="#certificates">credentials</a><a href="#contact">contact</a>
+      </div>
+      <button id="theme" class="theme-btn" type="button">☼</button>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="hero-cmd">$ git commit -m "learn, build, ship"</p>
+          <p class="hero-hello">Hello, I’m</p>
+          <h1 class="hero-name">MUSKAN</h1>
+          <h2 class="hero-role" id="rotator" aria-label="Aspiring DevOps Engineer">Aspiring DevOps Engineer</h2>
+          <p class="hero-text">I build, <b>containerize and ship</b> small full-stack apps using <b>Docker, Jenkins and Linux</b>. I also share what I learn every day in my 100 Days of DevOps series.</p>
+          <div class="hero-actions"><a class="btn primary" href="#contact">Hire me</a><a data-gate="link" data-target="github" class="btn outline" href="https://github.com/muskan-dev-12" target="_blank" rel="noreferrer">GitHub</a><a class="btn outline" href="#" data-gate="download" data-file="Muskan_Resume.pdf">Download resume</a></div>
+          <div class="stat-cards">
+            <div class="stat-card"><strong>5</strong><small>Projects built</small></div>
+            <div class="stat-card"><strong>1</strong><small>DevOps internship</small></div>
+            <div class="stat-card"><strong>100</strong><small>Days of DevOps series</small></div>
+          </div>
+        </div>
+        <div class="hero-terminal reveal delay-1">
+          <div class="terminal-head"><span class="traffic"><i></i><i></i><i></i></span><span>muskan@IdeaPad-Slim-3: ~</span><span class="live">● live</span></div>
+          <div class="terminal-body" id="terminal">
+            <p><span class="green">muskan@devops</span>:<span class="blue">~</span>$ <span class="typed">systemctl status career</span></p>
+            <p class="success">● career.service — active (running)</p>
+            <p><span class="green">muskan@devops</span>:<span class="blue">~</span>$ cat mission.txt</p>
+            <p class="muted">Learn → Build → Automate → Share</p>
+            <p><span class="green">muskan@devops</span>:<span class="blue">~</span>$ docker ps</p>
+            <p class="table">CONTAINER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br>portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Up 11 days</p>
+            <p><span class="green">muskan@devops</span>:<span class="blue">~</span>$ <span class="cursor"></span></p>
+          </div>
+          <div class="terminal-footer"><span>Linux</span><span>Docker</span><span>CI/CD</span><span>AWS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">01 / ABOUT</div>
+        <div class="section-head"><div><h2>Not just learning.<br><span>Actually building.</span></h2></div><p>A final-year Computer Science student who learns DevOps by running real things, breaking them, fixing them and explaining what worked.</p></div>
+        <div class="about-grid">
+          <article class="glass feature-card"><span class="number">01</span><h3>Learn in public</h3><p>I document my DevOps learning through a 100 Days of DevOps series, so every topic has to become something I can actually explain.</p><div class="code-chip">@commitoncloud</div></article>
+          <article class="glass feature-card"><span class="number">02</span><h3>Build with containers</h3><p>My projects use Docker to turn applications into repeatable environments — from Nginx web servers to multi-container full-stack apps.</p><div class="code-chip">docker • nginx • mysql</div></article>
+          <article class="glass profile-card"><span class="number">03</span><h3>Quick profile</h3><dl><div><dt>Focus</dt><dd>Docker · Jenkins · Linux · CI/CD</dd></div><div><dt>Education</dt><dd>B.Tech CSE · 2023–2027</dd></div><div><dt>Languages</dt><dd>Hindi · English</dd></div><div><dt>Outside code</dt><dd>Zonal badminton · Kho-kho captain</dd></div></dl></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">02 / STACK</div>
+        <div class="section-head"><h2>My DevOps<br><span>toolbox.</span></h2><p>Hands-on tools, studied cloud services and the technologies I am learning next.</p></div>
+        <div class="stack-layout">
+          <div class="stack-pipeline glass">
+            <div class="pipe-node"><b>01</b><span>Linux</span><small>OS & CLI</small></div><div class="pipe-arrow">→</div>
+            <div class="pipe-node"><b>02</b><span>Git</span><small>version control</small></div><div class="pipe-arrow">→</div>
+            <div class="pipe-node"><b>03</b><span>Docker</span><small>containers</small></div><div class="pipe-arrow">→</div>
+            <div class="pipe-node"><b>04</b><span>Jenkins</span><small>automation</small></div><div class="pipe-arrow">→</div>
+            <div class="pipe-node"><b>05</b><span>CI/CD</span><small>delivery</small></div>
+          </div>
+          <div class="skill-cloud">
+            <div class="skill-group"><h3>Build & runtime</h3><div class="tags"><span>Linux</span><span>Docker</span><span>Jenkins</span><span>Git & GitHub</span><span>Java / Spring Boot</span><span>Gradle</span><span>React</span><span>MySQL</span><span>Python scripting</span></div></div>
+            <div class="skill-group"><h3>AWS studied</h3><div class="tags secondary"><span>EC2</span><span>S3</span><span>RDS</span><span>VPC</span><span>IAM</span><span>Load Balancer</span><span>Auto Scaling</span></div></div>
+            <div class="skill-group learning"><h3>Learning next <i>→</i></h3><div class="tags secondary"><span>Terraform</span><span>Kubernetes</span><span>Monitoring</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">03 / JOURNEY</div>
+        <div class="section-head"><h2>From coursework<br><span>to real systems.</span></h2><p>A simple timeline of the work that is shaping my DevOps path.</p></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="time">2023 — 2027</div><div class="glass timeline-card"><span class="status">ONGOING</span><h3>B.Tech — Computer Science & Engineering</h3><p>Rajshree Institute of Management and Technology, Bareilly.</p></div></article>
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="time">01 — 30 SEP 2026</div><div class="glass timeline-card"><span class="status done">COMPLETED</span><h3>CodeAlpha — DevOps Virtual Internship</h3><p>Built a Docker web server, Java + Gradle automation and a Jenkins Remoting setup. Projects were pushed to GitHub.</p><div class="tags"><span>Docker</span><span>Gradle</span><span>Jenkins</span></div></div></article>
+          <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="time">NOW</div><div class="glass timeline-card highlight"><span class="status">ACTIVE BUILD</span><h3>100 Days of DevOps</h3><p>One topic at a time: Linux, Git, Docker, cloud and CI/CD — shared on Instagram as <b>@commitoncloud</b>.</p><a data-gate="link" data-target="instagram" class="btn small" href="https://instagram.com/commitoncloud" target="_blank" rel="noreferrer">Follow the journey ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="hundred" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">04 / BUILD IN PUBLIC</div>
+        <div class="days-hero glass reveal">
+          <div class="days-copy"><span class="eyebrow"><span class="dot"></span> 100 DAYS OF DEVOPS</span><h2>DAY <strong>11</strong><small>/ 100</small></h2><p>Current mission: <b>SSH → SCP → rsync</b>. Connect, copy, synchronize.</p><div class="progress"><span style="width:11%"></span></div><div class="progress-meta"><span>11 days shipped</span><span>11%</span></div><a data-gate="link" data-target="instagram" class="btn primary" href="https://instagram.com/commitoncloud" target="_blank" rel="noreferrer">See the series ↗</a></div>
+          <div class="mission-card"><div class="mission-top"><span>MISSION.LOG</span><span>DAY_011</span></div><div class="mission-row"><b>SSH</b><span>secure remote connection</span><i>CONNECT</i></div><div class="mission-row"><b>SCP</b><span>secure file copy</span><i>COPY</i></div><div class="mission-row"><b>rsync</b><span>efficient synchronization</span><i>SYNC</i></div><div class="warning">⚠ Never share your private SSH key.</div></div>
+        </div>
+        <div class="roadmap glass"><div class="road-head"><h3>Roadmap</h3><span>10 modules</span></div><div class="road-items"><div class="road-item active"><b>01</b><span>Linux & Networking</span><i>NOW</i></div><div class="road-item"><b>02</b><span>Shell Scripting</span><i>NEXT</i></div><div class="road-item"><b>03</b><span>Git</span><i>NEXT</i></div><div class="road-item"><b>04</b><span>Docker</span><i>NEXT</i></div><div class="road-item"><b>05</b><span>AWS & Cloud</span><i>NEXT</i></div><div class="road-item"><b>06</b><span>CI/CD</span><i>NEXT</i></div><div class="road-item"><b>07</b><span>Terraform</span><i>NEXT</i></div><div class="road-item"><b>08</b><span>Kubernetes</span><i>NEXT</i></div><div class="road-item"><b>09</b><span>Monitoring & DevSecOps</span><i>NEXT</i></div><div class="road-item"><b>10</b><span>Portfolio Projects</span><i>NEXT</i></div></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">05 / SELECTED BUILDS</div>
+        <div class="section-head"><h2>Things I have<br><span>actually shipped.</span></h2><p>Projects from my DevOps and application-building work.</p></div>
+        <div class="project-grid">
+          <article class="project glass"><div class="project-top"><span class="project-num">01</span><span class="project-type">FULL STACK</span></div><h3>To-Do app</h3><p>Add and delete tasks stored in MySQL, with frontend, backend and database running as three containers on one Docker network.</p><div class="stack-line">React · Java · MySQL · Docker</div><a href="https://github.com/muskan-dev-12/Todo-DB" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+          <article class="project glass"><div class="project-top"><span class="project-num">02</span><span class="project-type">BACKEND</span></div><h3>User management app</h3><p>Dashboard for adding and listing users through a REST API, with a health endpoint and CORS configuration through environment variables.</p><div class="stack-line">React · Spring Boot · MySQL · Docker</div><a href="https://github.com/muskan-dev-12/Dashboard-for-user-management" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+          <article class="project glass featured"><div class="project-top"><span class="project-num">03</span><span class="project-type">DEVOPS</span></div><h3>Docker Web Server</h3><div class="architecture"><span>GitHub</span><b>→</b><span>Docker</span><b>→</b><span>Nginx</span></div><p>Containerized a static web app using a custom Nginx-based Dockerfile and managed lifecycle, health and logs with the Docker CLI.</p><div class="stack-line">Docker · Nginx · Linux · Git</div><a href="https://github.com/muskan-dev-12/CodeAlpha_DockerWebServer" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+          <article class="project glass"><div class="project-top"><span class="project-num">04</span><span class="project-type">CI/CD</span></div><h3>Java app with Gradle</h3><p>Automated build, test and packaging with Gradle, JUnit and Maven Central. GitHub Actions builds and tests on every push.</p><div class="stack-line">Java · Gradle · JUnit · GitHub Actions</div><a href="https://github.com/muskan-dev-12/CodeAlpha_Java_Application_Using_Gradle" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+          <article class="project glass"><div class="project-top"><span class="project-num">05</span><span class="project-type">DISTRIBUTED CI</span></div><h3>Jenkins Remoting</h3><p>Jenkins controller + Dockerized agent architecture with node isolation and distributed job execution verified through console logs.</p><div class="stack-line">Jenkins · Docker · CI/CD · Linux</div><a href="https://github.com/muskan-dev-12/CodeAlpha_Jenkins_Remoting" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section-pad section-line">
+      <div class="wrap">
+        <div class="section-kicker">06 / CREDENTIALS</div>
+        <div class="section-head"><h2>Proof that I<br><span>keep learning.</span></h2><p>Certificates from DevOps, AI, cybersecurity and cloud learning. Click any card to inspect it (quick sign-in needed).</p></div>
+        <div class="cert-grid">
+          <button class="cert-card glass" data-cert="codealpha-devops-internship.jpg"><span>01</span><img src="assets/certs/thumb-codealpha-devops-internship.jpg" alt="CodeAlpha DevOps internship certificate"><strong>DevOps Virtual Internship</strong><small>CodeAlpha · Sep 2026</small></button>
+          <button class="cert-card glass" data-cert="tcs-ion-ai-cybersecurity.jpg"><span>02</span><img src="assets/certs/thumb-tcs-ion-ai-cybersecurity.jpg" alt="TCS iON AI and Cybersecurity Awareness certificate"><strong>AI & Cybersecurity Awareness</strong><small>TCS iON · Sep 2026</small></button>
+          <button class="cert-card glass" data-cert="tcs-ion-generative-ai.jpg"><span>03</span><img src="assets/certs/thumb-tcs-ion-generative-ai.jpg" alt="TCS iON Generative AI Essentials certificate"><strong>Generative AI Essentials</strong><small>TCS iON · Sep 2026</small></button>
+          <button class="cert-card glass" data-cert="unstop-cloud-computing-ai.jpg"><span>04</span><img src="assets/certs/thumb-unstop-cloud-computing-ai.jpg" alt="Unstop Cloud Computing with AI certificate"><strong>Cloud Computing with AI</strong><small>Unstop</small></button>
+        </div>
+        <div class="credential-bar glass"><div><span class="eyebrow"><span class="dot"></span> VERIFIABLE</span><h3>Work, not just certificates.</h3><p>CodeAlpha Student ID: CA/DF1/262882 · TCS iON certificate IDs available on the original certificates.</p></div><a class="btn" href="#" data-gate="download" data-file="Muskan_Resume.pdf">Resume PDF ↓</a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="wrap contact-card glass">
+        <div><div class="section-kicker">07 / CONNECT</div><h2>Let's build something<br><span>reliable.</span></h2><p>Looking for a DevOps internship or junior opportunity. If you have a system to improve, I would love to talk.</p></div>
+        <div class="contact-actions"><a data-gate="link" data-target="email" class="btn primary" href="mailto:muskanprajapati2005@gmail.com">Email me ↗</a><a data-gate="link" data-target="linkedin" class="btn" href="https://www.linkedin.com/in/muskan-3a5360432" target="_blank" rel="noreferrer">LinkedIn ↗</a><a data-gate="link" data-target="github" class="btn" href="https://github.com/muskan-dev-12" target="_blank" rel="noreferrer">GitHub ↗</a><a data-gate="link" data-target="instagram" class="btn" href="https://instagram.com/commitoncloud" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+        <div class="final-terminal"><span>muskan@devops</span>:~$ <b>echo "see you in production"</b><br><em>see you in production</em></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap"><span>© 2026 Muskan</span><span>Built with HTML · CSS · JavaScript · a lot of terminal logs.</span></div></footer>
+
+  <div id="modal" class="modal" hidden><button class="modal-close" aria-label="Close certificate">×</button><img id="modal-img" alt="Certificate preview"></div>
+  <script src="auth.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
